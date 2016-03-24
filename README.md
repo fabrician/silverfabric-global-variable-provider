@@ -48,10 +48,10 @@ To install the global variable provider to a Silver Fabric Manager:
 `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/GlobalVariableProvider` directory on the Silver Fabric Manager host.
 The name of this directory is arbitrary, but it helps to give it a meaningful name.
 2. Copy the zip file from project `target` directory to Silver Fabric Manager host.
-3. Extract the Zip file to a staging folder on the Manager host and  copy following files to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory:
+3. Extract the Zip file to a staging folder on the Manager host and  copy following files to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/GlobalVariableProvider` directory:
 	* `GlobalVariableProvider-version.jar`
 	* `GlobalVariableProvider.xml`
-4. Copy MySQL JDBC driver jar file from staging directory on the Manager host to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory
+4. Copy MySQL JDBC driver jar file from staging directory on the Manager host to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/GlobalVariableProvider` directory
 
 ### Detecting of Variable Provider by Manager
 ----------------------------------------------------------
