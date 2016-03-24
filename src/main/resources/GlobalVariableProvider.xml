@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<variableProvider class="org.fabrician.external.provider.GlobalVariableProvider">
+	<property name="name" value="GlobalVariableProvider" />
+	<property name="description"
+		value="Global variable provider using relational database" />
+	<property name="enabled" value="false" />
+
+	<property name="jdbcDriver" value="JDBC Driver Class Name" />
+	<property name="jdbcUrl" value="JDBC URL" />
+	<property name="dbUser" value="Database user name" />
+	<property name="dbPwd" value="Database password" />
+
+	<property name="projCol" value="PROJECT" />
+	<property name="envCol" value="ENVIRONMENT" />
+	<property name="locCol" value="LOCATION" />
+	<property name="logicalMachineCol" value="LOGICAL_MACHINE" />
+
+	<property name="archiveNameCol" value="ARCHIVE_NAME" />
+	<property name="artifactIdCol" value="ARCHIVE_ID" />
+	<property name="artifactGroupIdCol" value="ARCHIVE_GROUP_ID" />
+	<property name="artifactVersionCol" value="ARCHIVE_VERSION" />
+
+	<property name="nameCol" value="GV_NAME" />
+	<property name="valueCol" value="GV_VALUE" />
+
+	<property name="compVarsTable" value="COMP_VARS" />
+	<property name="archiveVarsTable" value="ARCHIVE_VARS" />
+
+	<property name="projRuntimeVariable" value="PROJECT_NAME" />
+	<property name="envRuntimeVariable" value="ENVIRONMENT_NAME" />
+	<property name="logicalMachineRuntimeVariable" value="LOGICAL_MACHINE_NAME" />
+	<property name="locEngineProperty" value="ec2Zone" />
+	
+	<property name="loglevel" value="INFO" />
+
+</variableProvider>
+ 
