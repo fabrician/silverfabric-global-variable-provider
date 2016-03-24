@@ -21,8 +21,7 @@ application (for example a web application) to add, update or delete relevant va
 ### Building Global Variable Provider
 ------------------------------------------------
 This project builds a Zip file under `target` directory. The Zip file contains the content
-you need to install the global  variable provider on the Silver Fabric Manager. In addition, you need to 
-download and install the the JDBC driver jar file compatible with your target database.
+you need to install the global  variable provider on the Silver Fabric Manager. 
 
 1. Download `SilverFabricSDK.jar` from Silver Fabric Manager UI under `Admin/Downloads`
 2. Copy `SilverFabricSDK.jar` under project `lib` folder
@@ -49,16 +48,16 @@ To install the global variable provider to a Silver Fabric Manager:
 `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/GlobalVariableProvider` directory on the Silver Fabric Manager host.
 The name of this directory is arbitrary, but it helps to give it a meaningful name.
 2. Copy the zip file from project `target` directory to Silver Fabric Manager host.
-3. Copy the down loaded MySQL database JDBC driver to the Silver Fabric Manager host.
-4. Extract the Zip file to a staging folder on the Manager host and  copy following files to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory:
+3. Extract the Zip file to a staging folder on the Manager host and  copy following files to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory:
 	* `GlobalVariableProvider-version.jar`
 	* `GlobalVariableProvider.xml`
-5. Copy *MySQL JDBC driver jar file* to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory
+4. Copy MySQL JDBC driver jar file from staging directory on the Manager host to `SF_HOME/fabric/webapps/livecluster/deploy/config/variableProviders/` directory
 
 ### Detecting of Variable Provider by Manager
 ----------------------------------------------------------
 
-The global variable provider will be automatically detected and loaded by Silver Fabric Manager. 
+The global variable provider will be automatically detected and loaded by Silver Fabric Manager.  You can verify
+the global variable provider has been correctly loaded in Silver Fabric Manager UI under `Admin/Varaibles`
 
 ### Configuring Global Variable Provider
 ------------------------------------------------------
