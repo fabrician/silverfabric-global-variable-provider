@@ -1,4 +1,4 @@
-package org.fabrician.provider;
+package org.fabrician.external.provider;
 
 import java.io.Serializable;
 
